@@ -1,0 +1,293 @@
+:root {
+  --black: #000000;
+  --blue: #2196f3;
+  --grey: #757575;
+  --background: #2f303a;
+  --white: #ffffff;
+  --text: #212121;
+  --team: #f5f4fa;
+  --outline: #ececec;
+}
+body {
+  margin: 0;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+#now-here {
+  color: var(--blue);
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+.head a {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+#header {
+  display: flex;
+  align-items: center;
+}
+#header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo > a {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.navigate {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navigate li:not(:last-child) {
+  margin-right: 50px;
+}
+.contact {
+  display: flex;
+  padding: 0;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.web {
+  color: var(--blue);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+
+.studio {
+  color: var(--black);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+
+.navigate a {
+  color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+}
+.navigate a:hover {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact li:first-child {
+  margin-right: 50px;
+}
+.contact a {
+  color: var(--grey);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact a:hover {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+  font-weight: 500;
+}
+h1 {
+  margin: 0;
+}
+.hero {
+  background: var(--background);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero h1 {
+  font-size: 44px;
+  color: var(--white);
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.order {
+  background: var(--blue);
+  color: var(--white);
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 32px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.properties h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--black);
+  margin: 0;
+  margin-bottom: 10px;
+}
+.properties p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--grey);
+  margin: 0px;
+}
+.properties {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.properties ul {
+  padding: 0;
+  display: flex;
+  align-content: center;
+  margin: 0;
+}
+.properties li {
+  width: 270px;
+}
+.properties li:not(:last-child) {
+  margin-right: 30px;
+}
+.work {
+  padding-bottom: 94px;
+}
+.work h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text);
+}
+.work ul {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.work li:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--team);
+}
+.our-team li {
+  outline: 1px solid var(--outline);
+  width: 270px;
+}
+.our-team ul {
+  display: flex;
+  align-content: center;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+}
+.our-team li:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text);
+  margin-top: 0;
+
+  display: flex;
+  justify-content: center;
+}
+.our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text);
+  margin: 0;
+  text-align: center;
+}
+.card-text {
+  padding: 30px;
+}
+.our-team p {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--grey);
+
+  text-align: center;
+}
+
+.studio2 {
+  color: var(--white);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+#footer {
+  background: var(--background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.addres p {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.addres a {
+  color: var(--grey);
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.addres p {
+  display: flex;
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+
+.addres a:not(:last-child) {
+  display: inline-block;
+  margin-bottom: 9px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+}
