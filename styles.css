@@ -79,7 +79,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
 }
-
+.mail a {
+  display: flex;
+  align-items: center;
+}
+.phone a {
+  display: flex;
+  align-items: center;
+}
 .navigate a {
   color: var(--text);
   font-weight: 500;
@@ -240,6 +247,7 @@ h1 {
   justify-content: center;
 }
 .person {
+  box-shadow: 0px 4px 5px grey;
   margin-right: 30px;
   width: 270px;
   outline: 1px solid var(--outline);
@@ -357,7 +365,7 @@ address a:not(:last-child) {
 .tt:last-child {
   margin-right: 0;
 }
-.icon-link:hover .icon-svg {
+.icon-link:hover .wh {
   fill: var(--white);
 }
 
@@ -434,7 +442,7 @@ address {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .icon-footer {
   margin: 0;
@@ -450,4 +458,21 @@ address {
 
 .tt:hover .deb {
   background-color: var(--blue);
+}
+
+.mail-svg {
+  fill: var(--grey);
+  margin-right: 10px;
+}
+.mail:hover .mail-svg {
+  fill: var(--blue);
+}
+
+.phone-svg {
+  fill: var(--grey);
+  margin-right: 10px;
+}
+
+.phone:hover .phone-svg {
+  fill: var(--blue);
 }

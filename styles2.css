@@ -86,11 +86,32 @@ a {
   font-weight: 500;
   font-size: 14px;
 }
-
+.mail-svg {
+  fill: var(--grey);
+  margin-right: 10px;
+}
+.mail:hover .mail-svg {
+  fill: var(--blue);
+}
 .contact a {
   color: var(--grey);
   font-weight: 500;
   font-size: 14px;
+}
+.mail a {
+  display: flex;
+  align-items: center;
+}
+.phone a {
+  display: flex;
+  align-items: center;
+}
+.phone-svg {
+  fill: var(--grey);
+  margin-right: 10px;
+}
+.phone:hover .phone-svg {
+  fill: var(--blue);
 }
 .contact a:hover {
   color: var(--blue);
@@ -250,4 +271,55 @@ h1 {
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+}
+
+.wrap {
+  display: flex;
+}
+
+.right {
+  margin-left: 70px;
+}
+.right p {
+  margin: 0;
+}
+
+.card:hover {
+  box-shadow: 1px 4px 6px black;
+}
+.right p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.icon-list {
+  display: flex;
+  padding: 0;
+}
+.icon-svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.icon-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #43444d;
+  display: flex;
+  margin-right: 10px;
+}
+
+.icon-link:hover {
+  background-color: var(--blue);
 }
