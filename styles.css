@@ -348,21 +348,18 @@ address a:not(:last-child) {
   margin-left: 32px;
 }
 
-.tt {
+.icon-card {
   color: var(--background);
-}
-.tt:hover {
   width: 44px;
   height: 44px;
+  margin-right: 10px;
+}
+.icon-card:hover .deb {
   background: var(--blue);
   border-radius: 50%;
 }
 
-.tt {
-  margin-right: 10px;
-}
-
-.tt:last-child {
+.icon-card:last-child {
   margin-right: 0;
 }
 .icon-link:hover .wh {
@@ -475,4 +472,9 @@ address {
 
 .phone:hover .phone-svg {
   fill: var(--blue);
+}
+
+.icon-card {
+  width: 44px;
+  height: 44px;
 }
