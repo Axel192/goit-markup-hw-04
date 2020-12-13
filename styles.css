@@ -120,6 +120,8 @@ h1 {
   margin: 0;
 }
 .hero {
+  margin: 0 auto;
+  max-width: 1600px;
   background: var(--background);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -277,6 +279,8 @@ h1 {
 .card-text {
   padding-bottom: 30px;
   padding-top: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .our-team p {
   margin: 0;
@@ -293,6 +297,11 @@ h1 {
 }
 .clients h2 {
   text-align: center;
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text);
+  margin-bottom: 50px;
 }
 
 .studio2 {
@@ -333,7 +342,9 @@ address a:not(:last-child) {
   display: inline-block;
   margin-bottom: 9px;
 }
-
+img {
+  display: block;
+}
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -344,8 +355,6 @@ address a:not(:last-child) {
 .icon-block {
   padding: 0;
   margin-top: 16px;
-  margin-right: 32px;
-  margin-left: 32px;
 }
 
 .icon-card {
@@ -383,13 +392,7 @@ address a:not(:last-child) {
 .clients ul {
   display: flex;
 }
-.clients h2 {
-  margin: 0;
-  font-weight: 700;
-  font-size: 36px;
-  color: var(--text);
-  padding-bottom: 50px;
-}
+
 .clients-list {
   margin: 0;
 }
@@ -402,6 +405,9 @@ address a:not(:last-child) {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.client-li:last-child {
+  margin-right: 0;
 }
 .client-li:hover {
   border: 1px solid var(--blue);
@@ -477,4 +483,8 @@ address {
 .icon-card {
   width: 44px;
   height: 44px;
+}
+
+.icon-link:hover {
+  background-color: var(--blue);
 }
