@@ -380,6 +380,9 @@ img {
   height: 20px;
   fill: var(--icons);
 }
+.wrap {
+  display: flex;
+}
 
 .icon-link {
   display: flex;
@@ -446,6 +449,7 @@ address {
   letter-spacing: 0.03em;
   text-align: left;
   margin-top: 5px;
+  color: var(--white);
 }
 .icon-footer {
   margin: 0;
@@ -456,7 +460,7 @@ address {
 }
 
 .debb {
-  fill: white;
+  fill: var(--white);
 }
 
 .tt:hover .deb {
